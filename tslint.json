@@ -1,3 +1,16 @@
 {
-    "extends": ["tslint:recommended", "tslint-config-prettier"]
+    "extends": ["tslint:recommended", "tslint-config-prettier"],
+    "rules": {
+        "array-type": false,
+        "no-var-keyword": false,
+        "prefer-const": false,
+        "triple-equals": false,
+        "max-classes-per-file": false,
+        "object-literal-shorthand": false,
+        "prefer-for-of": false,
+        "no-angle-bracket-type-assertion": false,
+        "no-string-literal": false,
+        "adjacent-overload-signatures": false
+    }
+    
  }

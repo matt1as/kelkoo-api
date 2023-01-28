@@ -3,18 +3,20 @@
   "version": "1.0.1",
   "description": "Kelkoo API",
   "main": "lib/api.js",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "lib": "lib/api.d.ts",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" ",
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jestconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "author": "Mattias Johansson",
   "license": "ISC",
@@ -27,6 +29,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "kelkoo-api": "^1.0.0"
+    "kelkoo-api": "^1.0.0",
+    "request": "^2.88.2"
   }
 }
