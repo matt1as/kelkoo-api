@@ -1,6 +1,6 @@
 {
   "name": "@matt1as/kelkoo-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Kelkoo API",
   "main": "lib/api.js",
   "files": [
